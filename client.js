@@ -8,7 +8,7 @@ client.onopen = () => {
 };
 
 const send = () => {
-  let nickname = document.getElementById("username").value;
+  let nickname = document.getElementById("userName").value;
   let message = document.getElementById("message").value;
   client.send(`${nickname}: ${message}`);
 };
