@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Client test",
+      "setup": "git clone https://github.com/nrevutska-students/react-websockets-tests tests && npm install",
+      "run": "CI=true npm test -t client.test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
+      "name": "Server test",
+      "setup": "",
+      "run": "CI=true npm test -t server.test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    }
+  ]
+}
