@@ -1,0 +1,20 @@
+{
+  "name": "web-sockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "^8.5.0",
+    "jest": "^27.2.1",
+    "ws": "^8.2.2"
+  },
+  "dependencies": {}
+}
