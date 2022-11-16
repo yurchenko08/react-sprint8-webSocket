@@ -4,7 +4,7 @@ const localUrl = "ws://localhost:8082";
 //Your implementation
 const client = new WebSocket(localUrl);
 client.onopen = () => {
-  console.log("client connected");
+//   console.log("client connected");
 };
 
 const send = () => {
